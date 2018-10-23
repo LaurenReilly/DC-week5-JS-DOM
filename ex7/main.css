@@ -1,0 +1,23 @@
+#section-header {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+#accordion {
+    width: 400px;
+    background-color: yellow;
+    margin: auto;
+}
+
+#section {
+    padding: 5px;
+    /* the paragraph was still showing because the overflow was still on */
+    overflow: hidden;
+    height: 150px;
+    transition: height 1s;
+}
+
+#section.hidden {
+    height: 0px;
+}
